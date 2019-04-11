@@ -1,0 +1,1313 @@
+.form-group .help-block {
+    position: relative;
+    display: block !important;
+    color: red !important;
+    font-size: 14px !important;
+}
+#yii-debug-toolbar {
+    display:none !important;
+}
+#user-first_name{
+    text-transform:capitalize;
+}
+#user-last_name{
+    text-transform:capitalize;
+}
+#company-company_name{
+    text-transform:capitalize;
+}
+.navbar-brand {
+    font-weight: 600;
+    font-size: 20px;
+    color:#000;
+}
+
+/*----- Dashboard Css(Author:  ) -----*/
+#course .more_info {
+    height: 498px !important;
+}
+#company .more_info {
+    height: 440px !important;
+}
+#branch .more_info {
+    height: 470px !important;
+}
+#branch #slideainer_one {
+    height: 455px !important;
+}
+#course .superAdmin_tiles {
+    font-size: 95px;
+    color: rgba(0,0,0,0.15); 
+    float: right; 
+    padding-right: 10px;
+}
+.main-panel {
+    overflow-x: hidden;
+}
+.category, .stats {
+    color: #000000 !important;
+}
+#graph_slideainer .headings {
+    font-size: 25px;
+    font-weight: 400;
+    margin-left: 2%;  
+}
+#course p.category, #company p.category, #branch p.category, #learner p.category {
+    font-weight: 400;
+}
+#course .stats span, #company .stats span, #branch .stats span, #learner .stats span {
+    font-size: 15px;
+    font-weight: 300;
+}
+#course .category .btn-circle {
+    border-radius: 50%;
+    padding: 2%;
+    top: -6px;
+    margin-right: 10px;
+}
+#course .card-slideent h4 {
+    font-weight: 400;
+}
+.info .panel-title {
+    font-weight: 400;
+    font-size: 18px;
+}
+.info .panel-body p {
+    font-size: 16px;
+}
+#dropDown {
+    color: #e91e63;
+    font-weight: 500;
+    margin:2px 12px;
+}
+.dashblock {
+    padding: 10px;
+    height: 95px;
+}
+
+/*----- Learner Module Css(Author:  ) -----*/
+.mycourse .courses-names, .learner-dash .courses-names, .mycourse_1 .courses-names  {
+    margin-top: 10%;
+    text-align: center;
+}
+.mycourse .courses-names h6, .learner-dash .courses-names h6 {
+    color: #9c27b0;
+    font-weight: 400;
+    font-size: 14px;
+}
+.mycourse_1 .courses-names h6 {
+    color: #9c27b0;
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: none;
+}
+
+.mycourse .card a :hover, .learner-dash .card a :hover, .mycourse_1 .card a :hover {
+    color: #000000 !important;    
+}
+.card-learning a:focus {
+    color: #000000;
+}
+.notify_icon {
+    font-size: 40px !important;
+}
+.notify_header {
+    height: 70px;
+    width: 70px;
+}
+.notify_tile {
+    height: 110px !important;
+}
+.courses-daily .modal, .courses-weekly .modal, .courses-monthly .modal {
+    position: absolute;
+}
+.courses-daily #modal1, .courses-weekly  #modal2, .courses-monthly #modal3 {
+    margin-top: 6%;
+}
+.daily_dates {
+    cursor: pointer;
+}
+.courses-daily .tile, .courses-weekly .tile, .courses-monthly .tile {
+    height: auto;
+}
+.review-material .card a:focus {
+    color: #000000 !important;
+}
+
+/*----- Login Page Css(Author:  ) -----*/
+.wrapper.wrapper-full-page {
+    background-color: #ffffff;
+    font-family: 'Josefin Sans' !important;
+}
+.wrapper-full-page img {
+    width: 100%;
+    height: -webkit-fill-available;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    height: 100vh;
+}
+.wrapper-full-page .col-md-12, .wrapper-full-page .col-md-5, .wrapper-full-page .col-md-7 {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.wrapper-full-page .heading {
+    margin-top: 20%;
+    color:#046CE7;
+}
+.wrapper-full-page .heading h4 {
+    font-family: 'Josefin Sans' !important;
+}
+form#login-form {
+    margin: 5% 15%;
+}
+form#login-form label {
+    color: #999999;
+}
+form#login-form .password a {
+    color:#000000 !important;
+    font-size: 12px;
+    font-weight: 500;
+}
+.form-group.login-btn {
+    text-align: center;
+}
+form#login-form button.btn {
+    background-color: #F55321;  
+}
+form#login-form .checkbox input[type=checkbox]:checked + .checkbox-material .check {
+    background: #6ba6ec !important;
+}
+
+/*----- Sidebar Css-----*/
+/*@media (max-width: 992px) {
+    .sidebar{
+       margin-top: 60px !important;
+    }  
+}*/
+
+/*@media screen and (max-width:991px) {
+    .navbar-minimize {
+        display: none;
+    }
+}*/
+/*----- Lessons Css(Author:  ) -----*/
+#lessons .swiper-slideainer {
+    width: 100%;
+    border: 1px #A9A9A9 solid;
+}
+
+#lessons .main-panel > .slideent {
+    margin-top: 30px !important;
+}
+#lessons .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-slideent: center;
+    justify-slideent: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+#lessons .swiper-slide-active {
+    width: 100% !important;
+}
+#lessons .swiper-pagination-bullet {
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+    font-size: 12px;
+    color: #FFFFFF;
+    opacity: 1;
+    border-radius: 50% !important;
+    background: #A9A9A9;
+    font-weight: 500;
+}
+#lessons .swiper-pagination-bullet-inactive {
+    color:#FFFFFF;
+    cursor: auto;
+    pointer-events: none;
+    background-color : #c51162;
+}
+#lessons .swiper-pagination-bullet-active {
+    color:#FFFFFF;
+    background: #007aff;
+    cursor: pointer;
+    pointer-events: auto;
+}
+#lessons .panel-body a{
+    color:black !important;
+}
+/*#lessons .panel-title a:hover, a:focus{
+    color:#ffffff !important;
+}*/
+#lessons .card a{
+    font-size:16px !important;
+}
+#lessons .a {
+    color: #3F51B5 !important;
+}
+#lessons .panel-title-lesson a {
+    color: #000;
+}
+#lessons h4 {
+    font-size: 1.1em !important;
+}
+#lessons .card {
+    background:none;
+    box-shadow:none;
+    margin-top: 0 !important;
+}
+#lessons ul#menu {
+    margin-bottom: 0;
+}
+#lessons ul#menu li a {
+    cursor: pointer;
+}
+#lessons .panel-group .panel {
+    margin-bottom: 15px;
+}
+#lessons li {
+    margin-bottom: 3%;
+}
+
+#lessons .panel-default>.panel-heading {
+    color: #333;
+    background-color: #0DB5CA;
+    border-color: #0DB5CA;
+    padding: 2px 15px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+#lessons .panel-title-lesson {
+    color: #fff;
+    width: 100%;
+    padding: 10px;
+}
+#lessons .panel-title-lesson a {
+    color:#fff;
+}
+/*#lessons h4.panel-title.panel-title-lesson a b:hover, #lessons h4.panel-title.panel-title-lesson a b:focus {
+    color: #73efe3 !important;
+}*/
+#lessons .panel-default>.panel-heading a:after {
+    slideent: "";
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    float: right;
+    transition: transform .25s linear;
+    -webkit-transition: -webkit-transform .25s linear;
+}
+
+#lessons .panel-default>.panel-heading a[aria-expanded="true"]:after {
+    slideent: "\2212";
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+#lessons .panel-default>.panel-heading a[aria-expanded="false"]:after {
+    slideent: "\002b";
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+#lessons .main-panel > .slideent {
+    margin-top: 49px !important;
+}
+#lessons .accordion-toggle:focus {
+    color: #fff;
+}
+.section_name {
+    display: inline-flex;
+    width: 75%;
+}
+.no-margin {
+    margin-bottom: 0px;
+    display: inline-block;
+    width: 10%;
+    vertical-align: middle;
+    float: right;
+}
+#lessons .card {
+    margin: 25px 0 0 ;
+    padding-top: 30px;
+}
+/*@media (max-width:767px){
+    #lessons .card {
+        padding-top: 0px;
+    }   
+}*/
+.swiper-pagination-bullets-dynamic .swiper-pagination-bullet {
+    -webkit-transform: scale(1) !important;
+    -ms-transform: scale(1) !important;
+    transform: scale(1) !important;
+    position: relative !important;
+}
+.swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active {
+    -webkit-transform: scale(1) !important;
+    -ms-transform: scale(1) !important;
+    transform: scale(1) !important;
+}
+.swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-main {
+    -webkit-transform: scale(1) !important;
+    -ms-transform: scale(1) !important;
+    transform: scale(1) !important;
+}
+.swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-prev {
+    -webkit-transform: scale(1) !important;
+    -ms-transform: scale(1) !important;
+    transform: scale(1) !important;
+}
+.swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-prev-prev {
+    -webkit-transform: scale(1) !important;
+    -ms-transform: scale(1) !important;
+    transform: scale(1) !important;
+}
+.swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-next {
+    -webkit-transform: scale(1) !important;
+    -ms-transform: scale(1) !important;
+    transform: scale(1) !important;
+}
+.swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-next-next {
+    -webkit-transform: scale(1)  !important;
+    -ms-transform: scale(1) !important;
+    transform: scale(1) !important;
+}
+#lessons .panel-title-lesson b  {
+    width: 90%;
+    display: inline-block;
+    word-wrap: break-word;
+    vertical-align: -webkit-baseline-middle;
+}
+#lessons .panel-default>.panel-heading>.panel-title-lesson a[aria-expanded="false"]:after {
+    width: 5%;
+    display: inline-block;
+}
+#lessons .tooltip-inner {
+    min-width: 100px;
+}
+#lessons .popover, #lessons .tooltip-inner {
+    background-color: #ffa21a;
+}
+#lessons .popover-slideent {
+    cursor: pointer;
+    font-size: 16px;
+    color: #fff;
+    padding: 8px 10px;
+    text-decoration: underline;
+    font-style: italic;
+    text-transform: capitalize;
+    font-weight: 600;
+    text-decoration-color: chocolate;
+    line-height: 20px;
+    text-decoration-style: double;
+}
+#lessons .popover.bottom {
+    margin-left: 15%;
+    border-radius: 8px;
+}
+#lessons .popover {
+    animation: 
+        pulse 3s ease infinite alternate, 
+        nudge 3s linear infinite alternate;
+}
+@keyframes pulse {
+    0%, 100% {
+        background-color: orange;
+    }
+    50% {
+        background-color: orange;
+    }
+}
+
+@keyframes nudge {
+    0%, 100% {
+        transform: translate(0, 0);
+    }
+    50% {
+        transform: translate(25px, 0);
+    }
+}
+#lessons .popover.bottom > .arrow:after {
+    top: 1px;
+    margin-left: 0px !important; 
+    slideent: " ";
+    border-top-width: 0;
+    border-bottom-color: orange;
+}
+@media screen and (max-width:991px) {
+    #footer {
+        position:relative;
+        bottom:0;
+        width:100%;
+    }
+}
+
+@media screen and (min-width:992px) {
+    #footer {
+        /*        position:absolute;*/
+        bottom:0;
+        width:100%;
+    }
+}
+@media screen and (min-width:1200px) {
+    .section_name {
+        display: inline-flex;
+        width: 70%;
+    }
+    .no-margin {
+        margin-bottom: 0px;
+        display: inline-block;
+        width: 6%;
+        vertical-align: middle;
+        float: right;
+    }
+}
+/*--------- Over all screen CSS (Author: ) ---------- */
+
+.main-panel > .navbar {
+    margin-bottom: 0;
+    background-color: #fff;
+}
+.row {
+    /*margin-right: 0 !important;*/
+    margin-left: 0 !important;
+}
+.main-panel {
+    background-color: #f5f5f5;
+    height: 100%;
+}
+
+.badge {
+    display: inline-block;
+    min-width: 8px;
+    padding: 3px 7px !important;
+    font-size: 14px !important;
+    font-weight: bold;
+    line-height: 1;
+    color: #f9f6f6 !important;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    background-color: #da2222 !important;
+    border-radius: 12px;
+}
+.badge-no {
+    display: inline-block;
+    min-width: 8px;
+    padding: 4px 7px !important;
+    font-size: 14px !important;
+    font-weight: bold;
+    line-height: 15px;
+    color: #333 !important;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    background-color: #fff !important;
+    border-radius: 50%;
+}
+.hidden { 
+    display: none; 
+}
+.visible { 
+    display: block; 
+} 
+.modal-backdrop {
+    z-index:0;
+}
+.modal .modal-header .close {
+    color: #ff4a4a;
+} 
+.review-bg {
+    background-color: #F0F0F2;
+}
+.card [data-background-color="blue"] {
+    /*    background: linear-gradient(80deg, #3596ea, #00c156a1);*/
+    background: #56CCF2;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(60deg, #2F80ED, #56CCF2);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(60deg, #2F80ED, #56CCF2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+@media screen and (max-width:480px) {
+    .main-panel > .slideent {
+        padding: 2% 0% 0%;
+    }
+}
+@media screen and (min-width:481px) and (max-width:767px) {
+    .main-panel > .slideent {
+        padding: 2% 0% 0%;
+    }
+}
+
+@media screen and (max-width:767px) {
+    #lessons .card .card-slideent {
+        padding: 8px 0px !important;
+    }
+
+    #lessons .col-md-3, #lessons .col-md-9  {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    #lessons .col-md-3 {
+        margin-bottom: 20px;
+    }
+   
+}
+
+@media screen and (min-width:768px) and (max-width:991px) {
+    #lessons .card img {
+        height: 480px;        
+    }
+    #lessons .swiper-wrapper img  {
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }      
+    #lessons .slideshow{
+        padding-right: 0px;
+        width: 83%;
+        padding-left: 5px;
+    }
+    #lessons button {
+        padding: 2px;
+        font-size: 12px;
+    }
+    .main-panel > .slideent {
+        padding: 2% 0% 0%;
+    }
+    #lessons .buttons {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    #lessons .lessons_list {
+        max-height: 520px !important;
+        overflow-y: auto;
+    }
+}
+
+@media screen and (min-width:992px) {
+
+    #lessons .col-md-3 {
+        padding-right: 0px;
+    }
+    #lessons .slideshow {
+        padding-right: 0px;
+        width: 83%;
+        padding-left: 5px !important;
+    }
+    #lessons .card img {
+        height: 480px;
+    }
+    #lessons .btn {
+        padding: 5px;
+        margin: 2px;
+    }
+    #lessons .buttons {
+        padding-left: 0;
+        padding-right: 0;
+        bottom: 2px;
+    }
+    #lessons .card .card-slideent {
+        padding: 8px 0px !important;
+    }
+    #lessons .lessons_list {
+        max-height: 520px;
+        overflow-y: auto;
+    }
+}
+
+@media screen and (min-width:1367px) {      
+/*    #lessons .card img {
+        width: 100%;          
+        height: 480px;
+    }*/
+    #lessons .lessons_list {
+        overflow-y: auto;
+    }
+}
+
+/*----- Lessons Css(Author: Chaithra Rao) -----*/
+
+
+.complete-section-button {
+    background-color: #0DB5CA !important;
+    padding: 0 1% 0 1%;
+    cursor: default;
+}
+
+.button-complete {
+    padding: 5px 10px 5px 10px !important;
+    margin: 5px !important;
+}
+
+.sections a {
+    cursor: default;
+}
+
+.completion-progress {
+    color: #FFFFFF;
+    padding: 1% 1% 1% 2%;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+#lessons .col-md-9 {
+    padding-right: 0 !important;
+}
+
+.disabled {
+    pointer-events:none; 
+    opacity:0.6;   
+}
+
+.lessons {
+    padding-left: 0px;
+}
+
+.progress {
+    margin-bottom: 0 !important;
+    border-radius: 0 !important;
+}
+
+.card .card-slideent {
+    padding: 8px 20px !important;
+}
+
+/*----- Review Material Scoring Css(Author  Panda) -----*/
+.result-block{
+    color: #fff;
+    height: 30px;
+    padding-top: 7px;
+    padding-left: 22px;
+    visibility: visible;
+    border-radius: 16px;
+    width: 201px;
+}
+.check_answer{
+    margin-left:50px;
+    display:none;
+}
+
+.progress {
+    margin-bottom: 0 !important;
+}
+/* .check-answer{
+    margin-left:50px;
+    display:none;} */
+a.disabled {
+    pointer-events: none;
+} 
+.question{
+    text-align: justify;
+}
+
+
+/*----- ReviewMaterialScoring Css(Authorâ€Š Panda) -----*/
+.result-block{
+    color: #fff;
+    height: 30px;
+    padding-top: 7px;
+    padding-left: 22px;
+    visibility: visible;
+    border-radius: 16px;
+    width: 201px;   
+}
+.review-material{
+    margin-top: 5px;
+}
+.titlescore{
+    text-align: center;
+}
+.nxt{
+    display: none ;
+}
+#btn1 ,#btn2, #btn3{
+    cursor: pointer;
+    padding: 8px 30px;
+}
+
+#btn1 {
+    background-color: #ff6a00;
+}
+
+#btn3 {
+    background-color: #3d99be !important;
+}
+
+.check_answer{
+    margin-left: 5px;
+    display:none ;
+}
+.wrong{
+    color: #FF2C44 !important;
+}
+.incorrect{
+    background-color:  red;
+}
+.correct{
+    color: #5CDB95 !important;
+}
+.no-padding {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.progress {
+    margin-bottom: 0 !important;
+}
+/* .check-answer{
+    margin-left:50px;
+    display:none;} */
+a.disabled {
+    pointer-events: none;
+} 
+.question{
+    text-align: justify;
+}
+.customAlert {
+    display: inline-block;
+    position: fixed;
+    max-width: 25%;
+    min-width: 450px !important;
+    min-height: 30%;
+    height:auto !important;
+    left: 35%;
+    top: 65%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-left: -22.5%;
+    margin-top: -11.2%;
+    background: #C4E5FF;
+    animation: fadeIn 0.3s linear;
+    box-shadow: 0 27px 24px 0 rgba(0, 0, 0, 0.2), 0 40px 77px 0 rgba(0, 0, 0, 0.22);
+}
+.overlay{
+    height: 50%;
+    width: 100%;
+    position: absolute;
+    z-index: 1094;
+    background-color: rgb(255, 255, 255);
+    background-color: #ffffff00;
+
+}
+@media all and (max-width: 1300px) {
+    .customAlert .message {
+        font-size: 14px !important;
+    }
+    .customAlert input[type='button'] {
+        height: 15% !important;
+    }
+}
+
+.customAlert .message {
+    height: 80%;
+    padding: 5px;
+    color: black;
+    font-size: 16px;
+    line-height: 20px;
+
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.customAlert input[type='button'] {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    width: 35%;
+    height: 25px;
+    margin-top: -27px;
+    margin-left: -25%;
+    outline: 0;
+    border: 0;
+    background: #3082ED;
+    color: white;
+}
+.customAlert input[type='button']:hover {
+    transition: 0.3s;
+    cursor: pointer;
+    background: #3082ED;
+}
+
+.rab {
+    width: 200px;
+    height: 30px;
+    outline: 0;
+    border: 0;
+    color: white;
+    background: #039b73;
+}
+/*.tb-padding {
+    padding: 0px !important;
+}*/
+.titlescore {
+    margin: 0px;
+}
+.tb-padding h6 {
+    margin:0px;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+.modal .close {
+    font-size: 24px;
+    font-weight: 300;
+}
+.modal .modal-title {
+    display: inline-block;
+    font-weight : 500 !important;
+}
+
+.tablecolor{
+    /* background-color: white !important; */
+}
+#dailydiv, #weeklydiv, #monthlydiv {
+    width: 75%;
+    margin: 0 auto;
+}
+
+/*----- Notification Css(Author   ) -----*/
+
+.notification {
+    font-size: 18px;
+    font-weight: 400;
+
+    text-transform: capitalize;
+}
+
+.display{
+    display: none ;  
+}
+
+#myList li{ 
+    display:none;
+}
+
+#loadMore {
+    color: blue !important;
+    cursor: pointer;
+    text-align: center;
+    background-color: #EEE;
+    min-height: 3rem;
+    margin-bottom: -0.5rem;
+    padding: 0.5em;
+}
+#loadMore:hover {
+    color:black;
+}
+.dropdown-menu{
+    height: auto;
+    max-height: 52rem;
+    overflow-y: auto;
+}
+
+/*----- Q & A CSS(Author - Chaithra Rao) -----*/
+#questions-module .card-slideent {
+    min-height: 400px !important;
+}
+
+#questions-module .result-block {
+    width: 100% !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    margin-top:-15px !important;
+}
+
+#questions-module .result-block-no-margin {
+    margin: 0 !important;
+}
+
+#questions-module .result-block-heavy-font {
+    font-weight: 500;
+    color: #FFFFFF !important;;
+}
+
+#questions-module .result-block .card {
+    background-color: #3498DB;
+    border-radius: 0;
+    margin:1px !important;
+}
+
+#questions-module .result-block .card .card-body h6 {
+    text-transform: capitalize !important;
+    color: #FFFFFF !important;
+}
+
+#questions-module .result-block .card .right {
+    background-color: #5CDB95;
+    border-right: 1px solid #FFFFFF;
+}
+
+#questions-module .result-block .card .wrong {
+    background-color: #FF2C44;
+    border-left: 1px solid #FFFFFF;
+}
+
+#questions-module .result-block .card .right {
+    border-right: 1px solid #FFFFFF;
+}
+
+#questions-module .result-block .card .wrong {
+    border-left: 1px solid #FFFFFF;
+}
+.score-board {
+    color: #000000;
+}
+
+/*----- My Courses CSS(Author - Chaithra Rao) -----*/
+
+.material-datatables .card .card-header1 {
+    font-size: 16px !important;
+    /*padding: 5% 5%!important;*/
+}
+
+.material-datatables .card .card-slideent {
+    font-size: 16px !important;
+    line-height: 1.5 !important;
+    padding-top: 5% !important;
+}
+
+#btn p {
+    font-weight: 400 !important;
+    float: right !important;
+    padding-top: 5% !important;
+}
+
+@media screen and (min-width:992px) {
+    #mycourse .material-datatables .card .card-header1 {
+        padding: 5% 5%!important;
+        min-height: 67px;
+    }
+    #mycourse .material-datatables .card .card-slideent {
+        padding-top: 10% !important;
+    }
+}
+
+.green-btn, .red-btn {
+    display: inline-flex;
+    /*    vertical-align: -webkit-baseline-middle;*/
+}
+.active-learners, .nonactive-learners {
+    display: inline-flex;
+    width: 38%;
+    vertical-align: top;
+}
+
+/*------ Scrollbar CSS (Author :  ) -----*/
+.scrollbar
+{
+    height: 150px;
+    overflow-x: hidden;
+    width: 100%;
+    margin-bottom: 0;
+}
+
+#style-1::-webkit-scrollbar-track
+{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 10px;
+    background-color: #F5F5F5;
+}
+
+#style-1::-webkit-scrollbar
+{
+    width: 6px;
+    background-color: #F5F5F5;
+}
+
+#style-1::-webkit-scrollbar-thumb
+{
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    background-color: #3498DB;
+}
+
+
+/*----- Access Buttons CSS(Author - Chaithra Rao) -----*/
+.access-buttons div {
+    padding: 5px;
+}
+
+.access-buttons .access-one {
+    background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.access-buttons .access-two {
+    background: #FF416C;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FF4B2B, #FF416C);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FF4B2B, #FF416C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.access-buttons .access-three {
+    background-image: linear-gradient(to right, #9be15d 0%, #00e3ae 100%);
+
+}
+
+.access-buttons .access-four {
+    background: #DA22FF;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #9733EE, #DA22FF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #9733EE, #DA22FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.access-buttons .access-one, .access-buttons .access-two, .access-buttons .access-three, .access-buttons .access-four {
+    padding: 3%;
+}
+
+.access-buttons .access-four div:first-child p {
+    color: #9733EE;
+}
+
+.access-buttons .access-one div:first-child, .access-buttons .access-two div:first-child, .access-buttons .access-three div:first-child, .access-buttons .access-four div:first-child {
+    font-size: 80px;
+    font-weight: 500;
+    padding-top: 20%;
+    padding-left: 0;
+    color: #FFFFFF;
+    opacity: 0.5;
+}
+
+.access-buttons .access-one div:nth-of-type(2) p, .access-buttons .access-two div:nth-of-type(2) p,.access-buttons .access-three div:nth-of-type(2) p,.access-buttons .access-four div:nth-of-type(2) p{
+    font-weight: 500;
+    font-size: 10px;
+    padding-top: 2%;
+    color: #FFFFFF;
+    border-top: 1px solid #CECECE;
+    margin-bottom: 1%;
+}
+
+.access-buttons .access-one div:nth-of-type(2) img,.access-buttons .access-two div:nth-of-type(2) img,.access-buttons .access-three div:nth-of-type(2) img,.access-buttons .access-four div:nth-of-type(2) img {
+    padding-bottom: 3%;
+}
+
+/*----- Review Materials - Multiple E-books (Author - Chaithra Rao) -----*/
+.wiki-button {
+    -moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+    -webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+    box-shadow:inset 0px 1px 0px 0px #ffffff;
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, #dfdfdf)) !important;
+    background:-moz-linear-gradient(top, #ededed 5%, #dfdfdf 100%) !important;
+    background:-webkit-linear-gradient(top, #ededed 5%, #dfdfdf 100%) !important;
+    background:-o-linear-gradient(top, #ededed 5%, #dfdfdf 100%) !important;
+    background:-ms-linear-gradient(top, #ededed 5%, #dfdfdf 100%) !important;
+    background:linear-gradient(to bottom, #ededed 5%, #dfdfdf 100%) !important;
+    background-color:#ededed;
+    color:#777777;
+    font-weight: bold;
+    text-shadow:0px 1px 0px #ffffff;
+}
+.wiki-button:hover {
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #dfdfdf), color-stop(1, #ededed));
+    background:-moz-linear-gradient(top, #dfdfdf 5%, #ededed 100%);
+    background:-webkit-linear-gradient(top, #dfdfdf 5%, #ededed 100%);
+    background:-o-linear-gradient(top, #dfdfdf 5%, #ededed 100%);
+    background:-ms-linear-gradient(top, #dfdfdf 5%, #ededed 100%);
+    background:linear-gradient(to bottom, #dfdfdf 5%, #ededed 100%);
+    background-color: #dfdfdf;
+    color: #000000 !important;
+}
+
+.news-button {
+    background-image: linear-gradient(to left, #a8caba 0%, #5d4157 100%);
+    color:#FFFFFF;
+
+}
+
+.wiki-button, .news-button {
+    cursor:pointer;
+    width: 100%;
+    font-size: 14px;
+}
+
+/*----- Home Page CSS(Author: Chaithra Rao) -----*/
+#slide img,
+#slide span {
+    display:none;   
+}
+
+#slide img {
+    height: 220px;
+}
+
+#slide span.one,
+#slide span.two,
+#slide span.three
+{
+    color:#fff;
+    position:absolute;
+    margin-left: 20%;
+}
+
+#slide span.one {
+    margin-top: 5%;
+}
+
+#slide span.two {
+    margin-top: 7%;
+}
+
+#slide span.three {
+    margin-top: 17%;
+}
+
+#slide div:first-child span {
+    color:#764ba2
+}
+
+#slide div:nth-of-type(2) span {
+    color: #3498DB;
+}
+
+#slide div:nth-of-type(3) span {
+    color: #2ECC71;
+}
+
+#slide div:nth-of-type(4) span {
+    color: #E74C3C;
+}
+
+#slide div:nth-of-type(5) span {
+    color: #ff0066;
+}
+
+/* ----- CSS for DMS (Author: Chaithra Rao & Jeevan) ----- */
+
+.form-border{
+    width:60%;
+    margin:10% auto;
+    border:1px solid black;
+}
+.document-form{
+    margin: 4% auto;
+    padding:2%;
+}
+.heading{
+    font-weight:500;
+}
+
+.header-section{
+    margin-top:2%;
+}
+.icons{
+    font-size: 25px;
+    margin: 5px;
+}
+
+.rejected{
+    color:red;
+}
+.approved{
+    color:green;
+}
+.pending{
+    color:blue;
+}
+@media (min-width: 650px) and (max-width: 1000px){
+
+#slide img {
+    height: 150px;
+}
+}
+@media (min-width: 550px) and (max-width: 649px){
+    #slide img {
+    height: 100px;
+}
+.content{
+    min-height: 200px;
+}
+.card .card-header1{
+    padding: 1px 10px;
+}
+h4{
+    font-size: 1.0em;
+}
+}
+@media (min-width: 300px) and (max-width: 549px){
+    #slide img {
+    height: 80px;
+}
+.content{
+    min-height: 170px;
+}
+.card .card-header1{
+    padding: 1px 10px;
+}
+h4{
+    font-size: 1.0em;
+}
+.navbar-brand{
+    font-size: 17px;
+}
+}
+/*@media (min-width: 768px) and (max-width: 1100px){
+    #lessons .panel-title-lesson{
+            padding: 0px !important;
+    }
+}*/
+@media (min-width: 768px) and (max-width: 800px){
+    #lessons .card a{
+        font-size: 11px !important;
+    }
+/*    #lessons button{
+            font-size: 8px;
+    }*/
+}
+    @media (min-width: 768px) and (max-width: 910px){
+    ul, ol, li{
+        margin: 0px !important;
+    }
+/*    .section_name{
+        word-break: break-all;
+    }*/
+#lessons .card a {
+    font-size: 11px !important;
+}
+}
+@media (min-width: 911px) and (max-width: 1100px){
+    #lessons .card a{
+        font-size: 13px !important;
+    }
+}
+@media (min-width: 992px) and (max-width: 1100px){
+    .wiki-button, .news-button{
+        font-size: 10px;
+    }
+}
+@media (min-width: 421px) and (max-width: 490px){
+    .completion-progress{
+          width: 40% !important;
+      }
+}
+@media (min-width: 320px) and (max-width: 400px){
+    .completion-progress{
+          width: 27% !important;
+      }
+      .btn, .navbar .navbar-nav > li > a.btn{
+          font-size: 10px;
+      }
+}
+
+@media (min-width: 381px) and (max-width: 420px){
+    .completion-progress{
+          width: 35% !important;
+      }
+    
+}
